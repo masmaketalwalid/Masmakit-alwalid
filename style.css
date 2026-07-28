@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  direction: rtl;
+  background: #f8f8f8;
+  color: #222;
+}
+
+
+/* الهيدر */
+
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url("fish.jpg") center/cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+
+.hero-content {
+  padding: 20px;
+}
+
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+
+.hero h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+.hero p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+/* الأزرار */
+
+.buttons {
+  margin-top: 30px;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 8px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+
+.btn-main {
+  background: #e67e22;
+}
+
+
+.btn-phone {
+  background: #27ae60;
+}
+
+
+.btn-whatsapp {
+  background: #25d366;
+}
+
+
+
+/* الترحيب */
+
+.welcome {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+.welcome h2 {
+  color: #006994;
+  margin-bottom: 15px;
+}
+
+
+.welcome p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+
+
+/* المنيو */
+
+.menu {
+  padding: 30px 20px;
+}
+
+
+.menu > h2 {
+  text-align: center;
+  color: #006994;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 20px;
+}
+
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.card h3 {
+  color: #e67e22;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+
+.card ul {
+  list-style: none;
+}
+
+
+.card li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+}
+
+
+.card span {
+  float: left;
+  color: #008000;
+  font-weight: bold;
+}
+
+
+
+/* التواصل */
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background: #006994;
+  color: white;
+}
+
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+
+.contact p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+
+
+/* الفوتر */
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+/* الهاتف */
+
+@media(max-width:600px){
+
+.hero h1 {
+  font-size: 35px;
+}
+
+.hero h2 {
+  font-size: 20px;
+}
+
+.btn {
+  width: 90%;
+}
+
+}
