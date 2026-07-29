@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مسمكة الوليد | أسماك طازجة ومشاوي</title>
+
+    <meta name="description"
+        content="مسمكة الوليد - الزيتون الطريق العام - أسماك طازجة ومشاوي وسندويشات">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+🐟 مسمكة الوليد
+
+</div>
+
+<nav>
+
+<a href="#menu">المنيو</a>
+
+<a href="#contact">اتصل بنا</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>مسمكة الوليد</h1>
+
+<p>
+أسماك طازجة • مقالي • مشاوي • سندويشات
+</p>
+
+<a href="#menu" class="btn">
+عرض المنيو
+</a>
+
+</div>
+
+</section>
+
+<section id="menu">
+
+<h2 class="title">
+قائمة الطعام
+</h2>
+
+<div class="grid">
+<!-- بداية قسم المنيو -->
+
+<section class="menu" id="menu">
+
+    <h2>🍽️ قائمة الطعام</h2>
+
+    <div class="menu-container">
+
+        <div class="item">
+            <img src="images/bazra.jpg" alt="سمك بزرة">
+            <div>
+                <h3>سمك بزرة مقلي</h3>
+                <p>مع طرطور وبطاطا</p>
+                <span>250,000 ل.ل</span>
+                <br>
+                <a class="order-btn" href="tel:+961000000">📞 طلب</a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="images/sumo.jpg" alt="سمك سومو">
+            <div>
+                <h3>سمك سومو</h3>
+                <p>طازج ومشوي حسب الطلب</p>
+                <span>350,000 ل.ل</span>
+                <br>
+                <a class="order-btn" href="tel:+961000000">📞 طلب</a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="images/free-fish.jpg" alt="سمكة حرة">
+            <div>
+                <h3>سمكة حرة</h3>
+                <p>مشوية مع التتبيلة الخاصة</p>
+                <span>350,000 ل.ل</span>
+                <br>
+                <a class="order-btn" href="tel:+961000000">📞 طلب</a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="images/tawook.jpg" alt="سندويش طاووق">
+            <div>
+                <h3>سندويش طاووق</h3>
+                <span>250,000 ل.ل</span>
+                <br>
+                <a class="order-btn" href="tel:+961000000">📞 طلب</a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="images/chicken.jpg" alt="سندويش فروج">
+            <div>
+                <h3>سندويش فروج</h3>
+                <span>250,000 ل.ل</span>
+                <br>
+                <a class="order-btn" href="tel:+961000000">📞 طلب</a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="images/kabab.jpg" alt="كباب">
+            <div>
+                <h3>سندويش كباب</h3>
+                <span>250,000 ل.ل</span>
+                <br>
+                <a class="order-btn" href="tel:+961000000">📞 طلب</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<section class="contact">
+
+<h2>📍 معلومات التواصل</h2>
+
+<p>مسمكة الوليد</p>
+<p>الزيتون - الطريق العام</p>
+<p>🕗 يومياً من 8 صباحاً حتى 12 ليلاً</p>
+
+<a class="call-btn" href="tel:+961000000">
+اتصل الآن
+</a>
+
+</section>
+<style>
+
+body {
+    margin: 0;
+    font-family: "Tahoma", Arial, sans-serif;
+    direction: rtl;
+    background: #f8f8f8;
+    color: #222;
+}
+
+
+/* عنوان المنيو */
+
+.menu {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #0b4f6c;
+    font-size: 30px;
+}
+
+
+/* ترتيب الأطباق */
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+
+/* بطاقة الطبق */
+
+.item {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+
+.item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.item div {
+    padding: 15px;
+}
+
+
+.item h3 {
+    color: #d35400;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+
+.item p {
+    color: #666;
+}
+
+
+.item span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #008000;
+}
+
+
+
+/* زر الطلب */
+
+.order-btn {
+    display: inline-block;
+    background: #e67e22;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 12px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.order-btn:hover {
+    background: #ca6f1e;
+}
+
+
+
+/* قسم الاتصال */
+
+.contact {
+    background: #0b4f6c;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 30px;
+}
+
+
+.contact h2 {
+    font-size: 28px;
+}
+
+
+.call-btn {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+/* تحسين للموبايل */
+
+@media(max-width:600px){
+
+    .menu h2 {
+        font-size: 25px;
+    }
+
+
+    .item img {
+        height: 190px;
+    }
+
+
+    .item h3 {
+        font-size: 20px;
+    }
+
+}
+
+</style>
+
+
+</body>
+</html>
